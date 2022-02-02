@@ -1,0 +1,32 @@
+body{
+    background: url("./image/0_hDAyhnOx767w5qma.jpg");
+    height: 100px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#nav_menu_2 ul {
+	list-style: none;
+	padding: 0em;    /* padding above and below li elements */
+	text-align:start;
+    font-size: 30px;
+	 }
+#nav_menu_2 ul li {
+	display: inline;
+	padding: 1em;
+}
+#nav_menu_2 ul li a {
+	font-weight: bold;
+	color:white; }
+#nav_menu_2 ul li a.current { text-decoration: none; }
+h1{
+    text-align:right;
+    color:gold;
+    padding-right: 300px;
+    font-size:40px;
+}
+form{
+    margin-top: -180px;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+ 
+</head>
+
+<body>
+  <nav id="nav_menu_2">
+    <ul>
+  <li><a href= "index.html">HOME</a></li>
+  <li><a href= "skills.html">SKILL</a></li> 
+  <li><a href="project.html" >PROJECT</a></li> 
+  <li><a href="about.html" >ABOUT</a></li>
+  <li><a href="contacts.html">CONTACTS</a></li>
+  <li><a href="utube.html">VIDEO</video></a></li>
+</ul>
+</nav>
+ </div>
+ <h1>Hi<br> Iam<br> P.Dharani</h1>
+
+    <head>
+       <script type = "text/javascript">
+        
+            var imgObj = null;
+            var animate ;
+            
+            function init() {
+               imgObj = document.getElementById('myImage');
+               imgObj.style.position= 'relative'; 
+               imgObj.style.left = '0px'; 
+            }
+            
+            function moveRight() {
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+               animate = setTimeout(moveRight,20);    // call moveRight in 20msec
+            }
+            
+            function stop() {
+               clearTimeout(animate);
+               imgObj.style.left = '0px'; 
+            }
+            
+            window.onload = init;
+         //-->
+        </script>
+   </head>
+         <form>
+         <img id = "myImage" src = "image/7b1dce5a-e635-419b-90d8-a75d99f1802c.jpg"height="450"width="450" >
+         <p>Click the buttons below to handle animation</p>
+         <input type = "button" value = "Start" onclick = "moveRight();" />
+         <input type = "button" value = "Stop" onclick = "stop();" />
+      </form>
+
+</body>
+</html>
